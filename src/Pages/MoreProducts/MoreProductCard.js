@@ -9,7 +9,8 @@ const MoreProductCard = ({ Mproduct }) => {
             <figure><img src={picture} alt="car!" className='imgH w-full' /></figure>
             <div className="card-body">
                 <h2 className="card-title">{name}</h2>
-                <p>How to park your car at your garage?</p>
+                <p>Old Price: ${originalPrice}</p>
+                <p>Price: ${price}</p>
                 <div className="card-actions justify-end">
                     <button type="" className='btn-sm'><FcLikePlaceholder className='w-8 h-8'></FcLikePlaceholder></button>
                     <Link to={`/details/${_id}`} className="btn btn-primary btn-sm">Details</Link>

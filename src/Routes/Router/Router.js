@@ -5,6 +5,8 @@ import Main from "../../Layout/Main/Main";
 import About from "../../Pages/About/About/About";
 import AddCard from "../../Pages/AddCard/AddCard";
 import AllUser from "../../Pages/AllUser/AllUser";
+import Blog from "../../Pages/Blog/Blog";
+import Contact from "../../Pages/Contact/Contact";
 import Dashboard from "../../Pages/Dashboard/Dashboard/Dashboard";
 import Details from "../../Pages/Details/Details";
 import MoreProducts from "../../Pages/MoreProducts/MoreProducts";
@@ -23,6 +25,8 @@ export const router = createBrowserRouter([
             { path: '/signUp', element: <SignUp></SignUp> },
             { path: '/moreProduct', element: <MoreProducts></MoreProducts> },
             { path: '/about', element: <About></About> },
+            { path: '/contact', element: <Contact></Contact> },
+            { path: '/blog', element: <Blog></Blog>},
 
             {
                 path: '/details/:id', element: <Details></Details>,

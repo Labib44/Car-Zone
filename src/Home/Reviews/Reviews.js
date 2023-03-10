@@ -9,19 +9,19 @@ const Reviews = () => {
         {
             id: 1,
             name: 'Tom Cruise',
-            comment: '“Fantastic fish that was extremely fresh. Everything we ordered was very good and we even indulged in 3 desserts.”',
+            comment: '“Super quality! Quick delivery. Ever so marvellous packaging. First-rate service.Would buy from you again.”',
             img: tom,
         },
         {
             id: 2,
             name: 'Bill Gates',
-            comment: '“Amazing food. Lovely service. Best to make a reservation. Realy........... This is so much good. Enjoy!!!”',
+            comment: '“The item was superb and good. Immensely pleasing packaging. The delivery was superb. Item is of first-rate quality.”',
             img: BillGates
         },
         {
             id: 3,
             name: 'Vin Diesel',
-            comment: 'The food is really very tasty – the wagyu sushi on the dinner menu is especially delicious and not to be missed!',
+            comment: 'Quality of the wrapping was good. The item was of superb quality. Good delivery. The packaging was notably marvellous.',
             img: vin
         }
     ]
